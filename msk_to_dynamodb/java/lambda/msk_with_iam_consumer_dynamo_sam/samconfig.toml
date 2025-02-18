@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "java-lambda-msk-dynamo-sam"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-57ms1jf4voi0"
+s3_prefix = "java-lambda-msk-dynamo-sam"
+region = "us-west-2"
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "MSKClusterName=\"MSKWorkshopCluster\" MSKClusterId=\"36f40073-ee06-42c3-94b0-f5734d7ce2f5-13\" MSKTopic=\"MskIamJsonTestTopic\""
+image_repositories = []
